@@ -1,12 +1,14 @@
-var api = 'http://0.0.0.0:24888';
-var blockTargetInterval = 120;
+var api = 'http://node.ultranote.org:31000';
+var blockTargetInterval = 60;
 var coinUnits = 1000000;
-var symbol = 'XRY';
+var symbol = 'XUN';
 var refreshDelay = 30000;
 // pools stats by MainCoins
 var networkStat = {
-    "xry": [
-        ["xry.mypool.name", "http://xry.mypool.name:24888"],
+    "xun": [
+        ["pool.ultranote.org", "http://node.ultranote.org:8117"],
+
 
     ]
 };
+
