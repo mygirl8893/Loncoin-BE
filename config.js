@@ -1,5 +1,5 @@
 var api = 'http://node.ultranote.org:31000';
-var blockTargetInterval = 60;
+var blockTargetInterval = 120;
 var coinUnits = 1000000;
 var symbol = 'XUN';
 var refreshDelay = 30000;
