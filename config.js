@@ -1,4 +1,4 @@
-var api = 'http://node.ultranote.org:31000';
+var api = 'http://loncoin.net:32112';
 var blockTargetInterval = 120;
 var coinUnits = 1000000;
 var symbol = 'XUN';
@@ -6,7 +6,7 @@ var refreshDelay = 30000;
 // pools stats by MainCoins
 var networkStat = {
     "xun": [
-        ["pool.ultranote.org", "http://node.ultranote.org:8117"],
+        ["pool.loncoin.net", "http://pool.loncoin.net:8117"],
 
 
     ]
