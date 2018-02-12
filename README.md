@@ -3,7 +3,7 @@ Block explorer for Loncoin CryptoNote based cryptocurrency.
 
 #### Installation
 
-1) It takes data from daemon loncoind. It should be accessible from the Internet. Run ultranoted with open port as follows:
+1) It takes data from daemon loncoind. It should be accessible from the Internet. Run loncoind with open port as follows:
 ```bash
 ./loncoind --rpc-bind-ip=127.0.0.1 --rpc-bind-port=32112
 ```
