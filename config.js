@@ -1,14 +1,12 @@
-var api = 'http://loncoin.net:32112';
+var api = 'http://pool.loncoin.net:8117';
 var blockTargetInterval = 140;
 var coinUnits = 1000000;
-var symbol = 'XUN';
+var symbol = 'LCN';
 var refreshDelay = 30000;
 // pools stats by MainCoins
 var networkStat = {
-    "xun": [
-        ["pool.loncoin.net", "http://pool.loncoin.net:8117"],
-
-
-    ]
+    "lcn": [
+        ["pool.loncoin.net", "http://pool.loncoin.net:8117/stats"],
+ ]
 };
 
